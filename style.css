@@ -1,0 +1,80 @@
+/* For Entire Document */
+
+*{
+  padding: 0;  
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 140px;
+}
+
+.lang{
+  width: 121px;
+  margin-left: 680px;
+}
+
+#lang{
+  border: 0.15px solid rgb(167, 174, 181);
+  width: 121px;
+  height: 32px;
+  font-size: 1.2rem;
+  padding-left: 8px;
+  color: white;
+  border-radius: 5px;
+}
+
+.sign-in{
+  margin-left:10px;
+  height: 31px;
+  width: 75px;
+}
+
+#sign-in{
+  color: white;
+  background-color: rgb(229,9,20);
+  border: none;
+  border-radius: 5px;
+  height: 31px;
+  width: 75px;
+  font-weight: bold;
+}
+
+/* Content */
+
+.content1{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+}
+
+.content2{
+  display: flex;
+}
+
+#hero1{
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#hero2{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero3{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
